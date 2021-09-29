@@ -34,13 +34,12 @@ header{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 110px;
+	margin-top: 130px;
 	width: 100%;
 }
 .img-container img{
 	width: 500px;
 	height: 400px;
-	align-items: center;
 }
 .image-left{
 	transform: translateX(-120px);
@@ -49,7 +48,7 @@ header{
 	transform: translateX(120px);
 }
 .image-center{
-	transform: translateY(-60px);
+	transform: translateY(-90px);
 }
 
 
