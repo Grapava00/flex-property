@@ -1,7 +1,6 @@
 .container{
-	width: 100%;
-	height: 100vh;
 	background-color: #0A22F4;
+	overflow: hidden;
 }
 header{
 	max-width: 1200px;
@@ -31,6 +30,26 @@ header{
 	padding: 15px 30px;
 	background-color: #FFFFFF;
 }
-
+.img-container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 110px;
+	width: 100%;
+}
+.img-container img{
+	width: 500px;
+	height: 400px;
+	align-items: center;
+}
+.image-left{
+	transform: translateX(-120px);
+}
+.image-right{
+	transform: translateX(120px);
+}
+.image-center{
+	transform: translateY(-60px);
+}
 
 
