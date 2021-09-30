@@ -1,6 +1,6 @@
 .container{
 	background-color: #0A22F4;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 header{
 	max-width: 1200px;
@@ -10,6 +10,10 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
+.navbar{
+	display: flex;
+	align-items: center;
+}
 .navbar-ul{
 	display: flex;
 	justify-content: space-between;
@@ -17,10 +21,6 @@ header{
 }
 .navbar-ul .navbar-li{
 	padding-left: 43px;
-}
-.navbar{
-	display: flex;
-	align-items: center;
 }
 .white{
 	color: #FFFFFF;
@@ -35,7 +35,6 @@ header{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-top: 130px;
-	width: 100%;
 }
 .img-container img{
 	width: 500px;
@@ -44,11 +43,10 @@ header{
 .image-left{
 	transform: translateX(-120px);
 }
+.image-center{
+	transform: translateY(-100px);
+}
 .image-right{
 	transform: translateX(120px);
 }
-.image-center{
-	transform: translateY(-90px);
-}
-
 
