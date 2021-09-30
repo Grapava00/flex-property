@@ -49,4 +49,18 @@ header{
 .image-right{
 	transform: translateX(120px);
 }
+.scroll{
+	overflow-y: hidden;
+	margin: 0 auto;
+	width: 150px;
+	transform: translateX(20px);
+}
+.scroll .ellipse{
+	width: 100px;
+	transform: translateY(65px);
+}
+.scroll .mouse{
+	width: 15px;
+	transform: translate(-60px, -8px);
+}
 
